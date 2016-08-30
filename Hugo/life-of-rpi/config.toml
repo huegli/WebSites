@@ -1,0 +1,19 @@
+theme="polymer"
+baseurl = "http://life-of-rpi.nikolaischlegel.com/"
+languageCode = "en-us"
+title = "Life of (Raspberry) PI"
+MetaDataFormat = "toml"
+paginate = 10
+# discusShortname = "My Discus Name"
+copyright = "© 2016 Nikolai Schlegel"
+
+[params]
+    author = "Nikolai Schlegel"
+    photo = "images/Avatar_Huegli.jpg"
+    profile = "images/Life-of-RPI-Profile.png"
+    cover = "images/Life-of-RPI-Cover.png"
+    github = "huegli"
+    linkedin = "nikolaischlegel"
+
+[permalinks]
+    post = "/:year/:month/:day/:filename/"

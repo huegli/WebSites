@@ -1,19 +1,17 @@
-theme="polymer"
+theme="vienna"
 baseurl = "http://life-of-rpi.nikolaischlegel.com/"
 languageCode = "en-us"
-title = "Life of (Raspberry) PI"
+title = "Life of Raspberry PI"
 MetaDataFormat = "toml"
-paginate = 10
-# discusShortname = "My Discus Name"
 copyright = "© 2016 Nikolai Schlegel"
 
 [params]
     author = "Nikolai Schlegel"
-    photo = "images/Avatar_Huegli.jpg"
-    profile = "images/Life-of-RPI-Profile.png"
-    cover = "images/Life-of-RPI-Cover.png"
     github = "huegli"
     linkedin = "nikolaischlegel"
-
+    avatar = "/images/Avatar_Huegli.jpg"
+    contact = "nikolai.schlegel@gmail.com"
+    bio = "I like hacking around with Linux, Raspberry PI's and other Computer-related things in my precious spare time."
+    subtitle = "All the fun things I do with and around Raspberry PI's"
 [permalinks]
     post = "/:year/:month/:day/:filename/"

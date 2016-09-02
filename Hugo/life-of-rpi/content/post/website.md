@@ -15,6 +15,18 @@ is the command that created the starting point for this particular entry:
 ```
 hugo new post/website.md
 ```
+A similar command was used at to create the blog scafolding in the 
+first place:
+
+```
+huge new site life-of-rpi
+```
+
+There is more to set up for a new website, like editing the
+`config.toml` file, check out the 
+[Hugo Quickstart](https://gohugo.io/overview/quickstart/ "Hugo Quickstart") 
+page for more details.
+
 After the entry is created, I add text to the file using 
 [Markdown](https://daringfireball.net/projects/markdown/syntax "Markdown")
 syntax using any regular text editor. I, of course prefer to use

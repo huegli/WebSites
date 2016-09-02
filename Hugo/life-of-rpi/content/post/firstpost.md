@@ -6,8 +6,8 @@ title = "Why this blog?"
 
 +++
 
-This blog, besides being my first effort at publishing something online, is really
-just meant to be a repository of all the fun things I learn about and do with the
+This blog, besides being my first effort at publishing something online, is 
+meant to be a repository of all the fun things I learn about and do with the
 Raspberry PI. 
 
 I first learned about Raspberry PI's last year, which coincided with me getting my feet

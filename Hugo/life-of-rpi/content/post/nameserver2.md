@@ -6,7 +6,7 @@ title = "Setting up Nameservers Part 2 - Slave Configuration"
 
 +++
 As mentioned in my previous post on 
-[setting up Nameservers](/2016/10/05/nameserver/)"Setting up Nameservers",
+[setting up Nameservers](/2016/10/05/nameserver/ "Setting up Nameservers"),
 I have set up a total of 3 nameservers for my local home network.
 
 * A primary (master) nameserver running on my private network on a 
@@ -25,10 +25,6 @@ respective nameservers in a bit more detail
 **named.conf.local for Docker slave nameserver**
 
 ```
-//
-// Do any local configuration here
-//
-
 key docker-ns1.home.nikolaischlegel.com {
         algorithm hmac-md5;
         secret "************************";
@@ -123,10 +119,6 @@ I have seen so far seem to have it set to `no`, I left it in place.
 
 **named.conf.local on NAS slave nameserver**
 ```
-//
-// Do any local configuration here
-//
-
 zone "home.nikolaischlegel.com" {
         type slave;
         file "/etc/bind/zones/bak.home.nikolaischlegel.com";

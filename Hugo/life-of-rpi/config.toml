@@ -14,5 +14,6 @@ copyright = "© 2016 Nikolai Schlegel"
     bio = "I like hacking around with Linux, Raspberry PI's and other Computer-related things in my precious spare time."
     subtitle = "All the fun things I do with and around Raspberry PI's"
     ga_api_key = "UA-84695165-1"
+
 [permalinks]
     post = "/:year/:month/:day/:filename/"

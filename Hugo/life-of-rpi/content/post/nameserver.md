@@ -52,7 +52,9 @@ reserved IP's such as ones in the `192.168.255.255` range, it is a bad
 idea to have the name server be WITHIN the range of IP's that this router
 provides to it's clients. The information in the 
 [D-Link support forum](http://forums.dlink.com/index.php?topic=54498.0
-"D-Link support") came in handy here.
+"D-Link support") came in handy here. (UPDATE: [this D-Link suppor article]
+(http://forums.dlink.com/index.php?topic=60881.0 "D-Link support") suggests 
+that this is a bug in the DIR-880L firmware.)
 
 2. The router by default provides it's own IP (`192.168.0.1` in my case
 as the DNS server), this feature called
